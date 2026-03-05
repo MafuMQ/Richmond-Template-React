@@ -32,9 +32,9 @@ img { max-width: 100%; height: auto; display: block; }
 .contact-list i { color: var(--color-green); }
 
 /* ── Header & Navigation ── */
-.site-header { max-width: 1440px; margin: 0 auto; position: relative; padding: 0 20px 20px; }
-.header-inner { display: flex; justify-content: flex-end; align-items: flex-start; position: relative; }
-.logo { position: absolute; left: 0; top: 10px; width: 80px; z-index: 100; }
+.site-header { margin: 0 auto; position: relative; padding: 0 0 0 110px; }
+.header-inner { display: flex; justify-content: flex-end; align-items: flex-start; }
+.logo { position: absolute; left: 80px; top: 20px; width: 70px; z-index: 100; }
 .logo img { width: 100%; }
 
 .nav-bar { width: 85%; background: var(--color-green); border-radius: 10px 0 0 10px; padding: 18px 40px; margin-top: 15px; display: flex; justify-content: flex-end; align-items: center; }
@@ -65,7 +65,7 @@ img { max-width: 100%; height: auto; display: block; }
 .has-subdropdown > a::after { content: " ›"; float: right; font-size: 0.75rem; }
 
 /* ── Hero Slider Area ── */
-.hero-section { display: flex; max-width: 1440px; margin: 0 auto; }
+.hero-section { display: flex; margin: 0 auto; }
 .slider-container { width: 95%; height: 70vh; position: relative; background: #ccc; border-radius: 0 0 50px 0; overflow: hidden; }
 .slide { position: absolute; inset: 0; background-size: cover; background-position: center; }
 .slide-1 { background-image: url('https://richmond.gov.za/wp-content/uploads/2025/06/Road-Construction-project-1-scaled.jpg'); }
@@ -178,11 +178,12 @@ tr:nth-child(even) { background: var(--color-bg-light); }
   .depts-news-layout, .mayor-section { flex-direction: column; }
   .section-economic { padding: 0; }
   .economic-inner { padding: 30px 20px; }
-  .drivers-grid, .quick-links, .departments-panel, .news-panel, .mayor-image, .mayor-content { width: 100%; position: static; }
+  .drivers-grid, .quick-links, .departments-panel, .news-panel, .mayor-image, .mayor-content { width: 100%; }
   .emergency-grid, .footer-grid, .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .tenders-section { background: var(--color-white); }
 }
 @media (max-width: 768px) {
+  .site-header { padding-left: 90px; }
   .emergency-grid, .footer-grid, .mission-vision { grid-template-columns: 1fr; }
   .contact-list { display: none; }
   .nav-bar { width: 100%; border-radius: 0; padding: 14px 20px; }
