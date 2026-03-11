@@ -128,9 +128,9 @@ img { max-width: 100%; height: auto; display: block; }
 .social-sidebar i:hover { color: var(--color-green); }
 
 /* ── Mayor Section ── */
-.mayor-section { display: flex; gap: 40px; margin-top: -80px; position: relative; z-index: 10; align-items: end; }
+.mayor-section { display: flex; gap: 40px; margin-top: -80px; position: relative; z-index: 10; align-items: center; }
 .mayor-image { background: var(--color-white); border-radius: 25px 25px 0 0; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
-.mayor-content { width: 65%; padding-top: 120px; padding-bottom: 30px; }
+.mayor-content { width: 65%; padding-top: 0px; padding-bottom: 30px; }
 .mayor-content h6 { font-size: 1.2rem; color: var(--color-slate); line-height: 1; }
 .mayor-content h4 { font-size: 1.5rem; color: var(--color-amber); line-height: 1; }
 .mayor-content h1 { font-size: 2.5rem; margin-bottom: 20px; line-height: 1;}
@@ -210,10 +210,21 @@ td { padding: 12px 15px; border-bottom: 1px solid var(--color-border); }
 tr:nth-child(even) { background: var(--color-bg-light); }
 .download-btn { background: var(--color-amber); color: var(--color-black); padding: 6px 12px; border-radius: 4px; font-weight: bold; font-size: 0.8rem; }
 
-/* ── Loadshedding ── */
-.loadshedding-banner { background: url('https://richmond.gov.za/wp-content/uploads/2025/01/loadshedding-schedule-banner.webp') center/cover; padding: 80px 0; display: flex; justify-content: flex-end; }
-.loadshedding-content { text-align: right; }
-.loadshedding-content h3 { color: var(--color-white); font-size: 2rem; }
+/* ── Weather Section ── */
+.weather-section { background: linear-gradient(135deg, var(--color-green), #1a5e3a); padding: 40px 0; color: var(--color-white); }
+.weather-content { display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+.weather-current { display: flex; align-items: center; gap: 18px; }
+.weather-icon-lg { font-size: 3.2rem; }
+.weather-current h3 { font-size: 1.5rem; margin-bottom: 2px; font-family: var(--font-heading); }
+.weather-temp { font-size: 2.4rem; font-weight: bold; line-height: 1.1; }
+.weather-desc { font-size: 0.9rem; opacity: 0.85; margin-top: 4px; }
+.weather-forecast { display: flex; gap: 18px; }
+.weather-day { text-align: center; background: rgba(255,255,255,0.12); border-radius: 10px; padding: 14px 16px; min-width: 80px; }
+.weather-day-label { font-size: 0.8rem; font-weight: bold; margin-bottom: 6px; }
+.weather-day i { font-size: 1.3rem; margin-bottom: 6px; }
+.weather-day-temps { font-size: 0.9rem; }
+.temp-hi { font-weight: bold; margin-right: 6px; }
+.temp-lo { opacity: 0.6; }
 
 /* ── Footer ── */
 .site-footer { background: var(--color-bg-light); padding: 60px 0 0; }
@@ -390,7 +401,7 @@ tr:nth-child(even) { background: var(--color-bg-light); }
 @media (max-width: 768px) {
   /* Base */
   .container { padding: 0 16px; }
-  .section-padding { padding: 28px 0; }
+  .section-padding { padding: 28px 20px; }
 
   /* Hide entire top bar on mobile – CTA moves into header row */
   .top-bar { display: none; }
@@ -467,10 +478,9 @@ tr:nth-child(even) { background: var(--color-bg-light); }
   .search-bar { width: 100%; }
   .search-bar input { flex: 1; width: auto; }
 
-  /* Loadshedding */
-  .loadshedding-banner { padding: 50px 0; justify-content: center; }
-  .loadshedding-content { text-align: center; }
-  .loadshedding-content h3 { font-size: 1.6rem; }
+  /* Weather */
+  .weather-content { flex-direction: column; align-items: flex-start; }
+  .weather-forecast { flex-wrap: wrap; justify-content: center; width: 100%; }
 
   /* Footer */
   .site-footer { padding: 32px 0 0; }
@@ -515,8 +525,8 @@ tr:nth-child(even) { background: var(--color-bg-light); }
   /* News */
   .news-item img { height: 160px; }
 
-  /* Loadshedding */
-  .loadshedding-content h3 { font-size: 1.3rem; }
+  /* Weather */
+  .weather-day { min-width: 70px; padding: 10px 12px; }
 
   /* Footer */
   .footer-grid { grid-template-columns: 1fr; gap: 20px; }

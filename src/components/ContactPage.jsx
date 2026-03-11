@@ -1,20 +1,20 @@
 import { useState } from 'react'
 
 const infoCards = [
-  { icon: 'fas fa-phone',              label: 'Phone',        value: '(033) 212 2155' },
-  { icon: 'fas fa-fax',                label: 'Fax',          value: '(033) 212 2102' },
-  { icon: 'fas fa-envelope',           label: 'Email',        value: 'communications@richmond.gov.za' },
-  { icon: 'fas fa-location-dot',       label: 'Location',     value: '57 Shepstone Street, Richmond, 3780' },
+  { icon: 'fas fa-phone',              label: 'Phone',        value: '(035) 592 0680' },
+  { icon: 'fas fa-fax',                label: 'Fax',          value: '(035) 592 0672' },
+  { icon: 'fas fa-envelope',           label: 'Email',        value: 'info@mhlabuyalingana.gov.za' },
+  { icon: 'fas fa-location-dot',       label: 'Location',     value: 'Main Road R22, KwaNgwanase, 3973' },
   { icon: 'fas fa-clock',              label: 'Office Hours', value: 'Mon – Fri: 07:30 – 16:00' },
 ]
 
 const deptContacts = [
-  { dept: 'Municipal Manager',    role: 'Office of the Municipal Manager', phone: '(033) 212 2155', email: 'mm@richmond.gov.za',            icon: 'fas fa-user-tie' },
-  { dept: 'Finance',              role: 'Chief Financial Officer',         phone: '(033) 212 2155', email: 'finance@richmond.gov.za',        icon: 'fas fa-chart-pie' },
-  { dept: 'Human Resources',      role: 'HR Department',                   phone: '(033) 212 2155', email: 'hr@richmond.gov.za',             icon: 'fas fa-users' },
-  { dept: 'Technical Services',   role: 'Technical Department',            phone: '(033) 212 2155', email: 'technical@richmond.gov.za',      icon: 'fas fa-tools' },
-  { dept: 'Community Services',   role: 'Community Services',              phone: '(033) 212 2155', email: 'community@richmond.gov.za',      icon: 'fas fa-hands-helping' },
-  { dept: 'Corporate Services',   role: 'Corporate Services',              phone: '(033) 212 2155', email: 'corporate@richmond.gov.za',      icon: 'fas fa-building' },
+  { dept: 'Municipal Manager',    role: 'Office of the Municipal Manager', phone: '(035) 592 0680', email: 'mm@mhlabuyalingana.gov.za',            icon: 'fas fa-user-tie' },
+  { dept: 'Finance',              role: 'Chief Financial Officer',         phone: '(035) 592 0680', email: 'finance@mhlabuyalingana.gov.za',        icon: 'fas fa-chart-pie' },
+  { dept: 'Human Resources',      role: 'HR Department',                   phone: '(035) 592 0680', email: 'hr@mhlabuyalingana.gov.za',             icon: 'fas fa-users' },
+  { dept: 'Technical Services',   role: 'Technical Department',            phone: '(035) 592 0680', email: 'technical@mhlabuyalingana.gov.za',      icon: 'fas fa-tools' },
+  { dept: 'Community Services',   role: 'Community Services',              phone: '(035) 592 0680', email: 'community@mhlabuyalingana.gov.za',      icon: 'fas fa-hands-helping' },
+  { dept: 'Corporate Services',   role: 'Corporate Services',              phone: '(035) 592 0680', email: 'corporate@mhlabuyalingana.gov.za',      icon: 'fas fa-building' },
 ]
 
 const SUBJECTS = [
@@ -51,7 +51,7 @@ export default function ContactPage() {
             <span>Contact Us</span>
           </nav>
           <h1>Contact Us</h1>
-          <p>We're here to serve you. Reach out to Richmond Local Municipality.</p>
+          <p>We're here to serve you. Reach out to uMhlabuyalingana Local Municipality.</p>
         </div>
       </section>
 
@@ -82,8 +82,8 @@ export default function ContactPage() {
               <h2 className="contact-section-title">Find Us</h2>
               <div className="map-wrapper">
                 <iframe
-                  title="Richmond Municipality Location"
-                  src="https://maps.google.com/maps?q=Richmond+Municipality+57+Shepstone+Street+Richmond+KwaZulu-Natal&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  title="uMhlabuyalingana Municipality Location"
+                  src="https://maps.google.com/maps?q=KwaNgwanase+Municipality+Main+Road+R22+KwaNgwanase+KwaZulu-Natal&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="340"
                   style={{ border: 0 }}
@@ -98,14 +98,14 @@ export default function ContactPage() {
                   <i className="fas fa-location-dot" aria-hidden="true"></i>
                   <div>
                     <strong>Physical Address</strong>
-                    <p>57 Shepstone Street, Richmond, KwaZulu-Natal, 3780</p>
+                    <p>Main Road R22, KwaNgwanase, KwaZulu-Natal, 3973</p>
                   </div>
                 </div>
                 <div className="address-item">
                   <i className="fas fa-envelope-open-text" aria-hidden="true"></i>
                   <div>
                     <strong>Postal Address</strong>
-                    <p>Private Bag X1028, Richmond, 3780</p>
+                    <p>Private Bag X901, KwaNgwanase, 3973</p>
                   </div>
                 </div>
                 <div className="address-item">
@@ -120,14 +120,14 @@ export default function ContactPage() {
                   <i className="fas fa-phone" aria-hidden="true"></i>
                   <div>
                     <strong>Switchboard</strong>
-                    <p><a href="tel:0332122155">(033) 212 2155</a></p>
+                    <p><a href="tel:0355920680">(035) 592 0680</a></p>
                   </div>
                 </div>
                 <div className="address-item">
                   <i className="fas fa-envelope" aria-hidden="true"></i>
                   <div>
                     <strong>General Email</strong>
-                    <p><a href="mailto:communications@richmond.gov.za">communications@richmond.gov.za</a></p>
+                    <p><a href="mailto:info@mhlabuyalingana.gov.za">info@mhlabuyalingana.gov.za</a></p>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
                   <i className="fas fa-check-circle" aria-hidden="true"></i>
                   <h3>Message Sent!</h3>
                   <p>
-                    Thank you for contacting Richmond Local Municipality. A member of our team
+                    Thank you for contacting uMhlabuyalingana Local Municipality. A member of our team
                     will respond to your enquiry as soon as possible.
                   </p>
                   <button className="btn" onClick={() => setSubmitted(false)}>

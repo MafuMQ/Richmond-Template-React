@@ -2,12 +2,12 @@ const cards = [
   {
     icon: 'fas fa-bullseye',
     heading: 'Vision',
-    text: 'By 2042 Richmond Municipality will be an economically vibrant smart town and agricultural hub offering its citizens a healthy and social environment.',
+    text: 'To develop uMhlabuyalingana Local Municipality as a viable and sustainable local government that improves the quality of life and creates a pleasant living and working environment for all citizens.',
   },
   {
     icon: 'fas fa-rocket',
     heading: 'Mission',
-    text: 'Richmond Municipality will improve the livelihood of citizens by continuously providing affordable and sustainable service delivery through innovation stakeholder relations and good governance.',
+    text: 'uMhlabuyalingana Municipality will improve the livelihood of citizens by delivering services efficiently and effectively, promoting investment and economic growth, and involving local communities and stakeholders in municipal affairs in a structured manner.',
   },
 ]
 
@@ -19,7 +19,7 @@ export default function MissionVision() {
           <div className="mv-header">
             <i className={c.icon}></i>
             <div>
-              <h4>RICHMOND</h4>
+              <h4>UMHLABUYALINGANA</h4>
               <p>LOCAL MUNICIPALITY</p>
             </div>
           </div>

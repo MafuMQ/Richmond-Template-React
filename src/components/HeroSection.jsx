@@ -5,7 +5,7 @@ export default function HeroSection() {
         <div className="slide slide-1"></div>
       </div>
       <div className="social-sidebar">
-        <a href="https://www.facebook.com/profile.php?id=100075954986173" target="_blank" rel="noreferrer">
+        <a href="#" target="_blank" rel="noreferrer">
           <i className="fab fa-facebook-f"></i>
         </a>
         <a href="#"><i className="fab fa-x-twitter"></i></a>

@@ -4,7 +4,7 @@ export default function LoadsheddingBanner() {
       <div className="container loadshedding-content">
         <h3>Loadshedding Schedule</h3>
         <a
-          href="https://www.ourpower.co.za/areas/richmond"
+          href="https://www.ourpower.co.za/areas/manguzi"
           target="_blank"
           rel="noreferrer"
           className="btn"

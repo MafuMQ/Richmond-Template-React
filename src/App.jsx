@@ -10,7 +10,7 @@ import MissionVision from './components/MissionVision'
 import DeptsNews from './components/DeptsNews'
 import GallerySection from './components/GallerySection'
 import TendersSection from './components/TendersSection'
-import LoadsheddingBanner from './components/LoadsheddingBanner'
+import WeatherSection from './components/WeatherSection'
 import ContactPage from './components/ContactPage'
 import DocumentsPage from './components/DocumentsPage'
 import DocumentCategoryPage from './components/DocumentCategoryPage'
@@ -66,7 +66,7 @@ export default function App() {
             <DeptsNews />
             <GallerySection />
             <TendersSection />
-            <LoadsheddingBanner />
+            <WeatherSection />
           </>
         )}
       </main>

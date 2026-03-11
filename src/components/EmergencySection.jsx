@@ -1,5 +1,5 @@
 const contacts = [
-  { icon: 'fas fa-building', label: 'Municipality', number: '+27 33 212 2155', tel: '+27332122155' },
+  { icon: 'fas fa-building', label: 'Municipality', number: '+27 35 592 0680', tel: '+27355920680' },
   { icon: 'fas fa-id-card', label: 'Police', number: '10111', tel: '10111' },
   { icon: 'fas fa-heartbeat', label: 'Ambulance / Fire', number: '10177', tel: '10177' },
   { icon: 'fas fa-hand-paper', label: 'Fraud Line', number: '+27 80 070 1701', tel: '+27800701701' },

@@ -4,28 +4,29 @@ const externalLinks = [
   { href: 'https://www.kzncogta.gov.za/', label: 'KZN COGTA' },
   { href: 'https://www.seda.org.za/', label: 'SEDA' },
   { href: 'https://www.salga.org.za/', label: 'SALGA' },
-  { href: 'https://umdm.gov.za/', label: 'uMgungundlovu District' },
+  { href: 'https://umkhanyakude.gov.za/', label: 'uMkhanyakude District' },
 ]
 
 const internalLinks = [
   { href: '/', label: 'Home' },
-  { href: '/about-richmond/', label: 'About Richmond' },
+  { href: '/about-us/', label: 'About Umhlabuyalingana' },
   { href: '/departments/', label: 'Departments' },
   { href: '/scm/', label: 'SCM' },
-  { href: '/documents/', label: 'Documents' },
+  { href: '#documents', label: 'Documents' },
   { href: '/vacancies/', label: 'Vacancies' },
 ]
 
 const contactItems = [
-  { icon: 'fas fa-phone', text: '(033) 212 2155' },
-  { icon: 'fas fa-fax', text: '(033) 212 2102' },
-  { icon: 'fas fa-envelope', text: 'communications@richmond.gov.za', href: 'mailto:communications@richmond.gov.za' },
-  { icon: 'fas fa-envelope-open-text', text: 'Private Bag X1028, Richmond, 3780' },
-  { icon: 'fas fa-location-dot', text: '57 Shepstone Street, Richmond, 3780' },
+  { icon: 'fas fa-phone', text: '(035) 592 0680' },
+  { icon: 'fas fa-phone', text: '(035) 592 9628' },
+  { icon: 'fas fa-fax', text: '(035) 592 0672' },
+  { icon: 'fas fa-envelope', text: 'info@mhlabuyalingana.gov.za', href: 'mailto:info@mhlabuyalingana.gov.za' },
+  { icon: 'fas fa-envelope-open-text', text: 'Private Bag X901, KwaNgwanase, 3973' },
+  { icon: 'fas fa-location-dot', text: 'Main Road R22, KwaNgwanase, 3973' },
 ]
 
 const socialLinks = [
-  { href: 'https://www.facebook.com/profile.php?id=100075954986173', icon: 'fab fa-facebook-f' },
+  { href: '#', icon: 'fab fa-facebook-f' },
   { href: '#', icon: 'fab fa-x-twitter' },
   { href: '#', icon: 'fab fa-instagram' },
   { href: '#', icon: 'fab fa-youtube' },
@@ -84,7 +85,7 @@ export default function Footer() {
       <div className="copyright">
         <div className="container">
           <p>
-            All rights reserved 2025. Richmond Municipality. Website powered by{' '}
+            All rights reserved 2025. uMhlabuyalingana Municipality. Website powered by{' '}
             <a href="https://www.novadataco.co.za/" target="_blank" rel="noreferrer">
               NovaData Co
             </a>

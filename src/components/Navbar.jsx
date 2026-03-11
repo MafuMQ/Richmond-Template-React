@@ -1,5 +1,6 @@
 import { navLinks } from '../data/navLinks'
 import { useState, useRef, useEffect } from 'react'
+import logo from '../assets/logo.png'
 
 export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(null)
@@ -181,10 +182,10 @@ export default function Navbar() {
 
   return (
     <div className="header-inner">
-      <a href="https://richmond.gov.za/" className="logo">
+      <a href="#" className="logo">
         <img
-          src="https://richmond.gov.za/wp-content/uploads/2025/01/richmond-official-logo.svg"
-          alt="Richmond Municipality Logo"
+          src={logo}
+          alt="uMhlabuyalingana Municipality Logo"
         />
       </a>
       {desktopNav}

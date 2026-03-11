@@ -2,11 +2,11 @@ export const navLinks = [
   { label: 'Home', href: '#' },
   {
     label: 'Municipality',
-    href: '/about-richmond/',
+    href: '/about-us/',
     children: [
-      { label: 'About Richmond', href: '/about-richmond/', icon: 'fas fa-sun' },
+      { label: 'About Umhlabuyalingana', href: '/about-us/', icon: 'fas fa-sun' },
       { label: 'Mission & Vision', href: '#mission-vision', icon: 'fas fa-bullseye' },
-      { label: 'Council Members', href: '/about-richmond/#council-members', icon: 'fas fa-user' },
+      { label: 'Council Members', href: '/about-us/#council-members', icon: 'fas fa-user' },
       {
         label: 'Departments', href: '/departments/', icon: 'fas fa-chart-bar',
         subdropdown: [
@@ -18,7 +18,7 @@ export const navLinks = [
           { label: 'Office of the Municipal Manager', href: '/office-of-the-mm/' },
         ],
       },
-      { label: 'Team Portal', href: 'http://intranet.richmond.gov.za', icon: 'fas fa-hand-paper' },
+      { label: 'Team Portal', href: '#', icon: 'fas fa-hand-paper' },
     ],
   },
   {
